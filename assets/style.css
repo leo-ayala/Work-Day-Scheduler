@@ -32,9 +32,12 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;;
+    height: 60px;
+    border-top: 1px solid white;
+    padding: 55px;
   }
+
+
   
   .hour {
     background-color: #ffffff;
