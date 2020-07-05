@@ -12,7 +12,6 @@ $(".saveBtn").on("click", function () {
     var time = $(this).attr("data-time");
     var text = $("#"+ time + "-Text").val();
     ToDo[parseInt(time)-9] = text
-    console.log(ToDo);
     localStorage.setItem("Tasks", JSON.stringify(ToDo))
 });
 
