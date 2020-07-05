@@ -12,6 +12,9 @@ body {
     border-left: 1px solid black;
     padding: 10px;
   }
+  input[type=text] {
+    width: 100%;
+  }
   
   .jumbotron {
     text-align: center;
@@ -36,8 +39,6 @@ body {
     border-top: 1px solid white;
     padding: 55px;
   }
-
-
   
   .hour {
     background-color: #ffffff;
